@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  /* h+b+p=200px; border height ve padding 200px i aşmayacak*/
+}
+
+
+
+.paragraf_class{
+    border:1px solid blue; 
+    padding: 10px 20px 30px 25px;
+    text-indent: 30px;
+    text-align: justify; /*iki tarafa yaslı */
+    text-shadow: .5px .5px blue;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    cursor: pointer; /* üzerine gelince el işareti çıkar*/
+    width: 100%;
+    height: 25px;
+    height: auto;
+}
+
+a{
+    color: yellow;
+    color: #012;
+    color: #ab2af6;
+    color: rgb(0,255, 212);
+    color: rgba(red, green, blue,0.1);
+    background-color: rgb(15, 25, 117)
+    padding: 10px auto;
+    margin: 2rem .1rem;
+    border-radius: 50px;
+    font-size:2rem;
+}
+
+a:hover{     /*üzerine gelince ne olsun */
+    background-color: rgba(212, 206, 23, 0.8);
+    color: rgb(0, 26, 255);
+    transition: 3s all;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+ul{
+    list-style-type: none;
+}
