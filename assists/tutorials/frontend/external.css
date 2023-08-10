@@ -21,7 +21,7 @@
     height: auto;
 }
 
-a{
+/*a{
     color: yellow;
     color: #012;
     color: #ab2af6;
@@ -34,20 +34,20 @@ a{
     font-size:2rem;
 }
 
-a:hover{     /*üzerine gelince ne olsun */
+a:hover{     üzerine gelince ne olsun 
     background-color: rgba(212, 206, 23, 0.8);
     color: rgb(0, 26, 255);
     transition: 3s all;
 }
-
-img{
+*/
+/*img{
     width: 100%;
     height: auto;
 }
 
 img:hover{
     opacity: 0.8;
-}
+}*/
 ul{
     list-style-type: none;
 }
